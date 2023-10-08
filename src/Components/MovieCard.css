@@ -90,20 +90,20 @@
 .navbar button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: rgb(0, 81, 255);
+    color: rgb(255, 0, 85);
     background-color: white;
     border-radius: 20px;
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .navbar button:hover {
+}
+
+.navbar button:hover {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-  }
-  
-  .navbar button:focus {
+}
+
+.navbar button:focus {
     outline: none;
-  }
+}
 
