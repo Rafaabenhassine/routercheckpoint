@@ -9,16 +9,20 @@
 .card {
     display: table;
     position: relative;
-    height: 450px;
-    width: 50%;
+    width: 100%;
+    height: 800px;
     max-width: 300px;
     background-color: rgb(57, 52, 52);
     color:white;
     margin-bottom: 20px;
     border-radius: 20px;
     transition: 1s;
-}
 
+}
+.card img{
+    width: 100%;
+    height: 400px;
+}
 .card-info {
     display: flex;
     justify-content: space-between;
@@ -27,7 +31,11 @@
     padding-left:10px;
     padding-right:10px;
 }
-
+.card p {
+    width: 100%;
+    padding: 3px;
+    margin: 0;
+}
 .card::after { /*adds an rgb background behind the card*/
     --neg-border-width: -5px;
     position: absolute;
